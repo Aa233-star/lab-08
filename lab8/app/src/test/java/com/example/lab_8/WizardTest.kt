@@ -11,7 +11,7 @@ class WizardTest {
     // Set up a new wizard before every single test
     @Before
     fun setUp() {
-        evilWizard = Wizard("Evil Wizard", 30, 10, 100)
+        evilWizard = Wizard("Evil Wizard", 30, 10)
     }
 
     @Test
